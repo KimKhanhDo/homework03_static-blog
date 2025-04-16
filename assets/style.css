@@ -58,7 +58,7 @@ img {
 }
 
 blockquote {
-    margin: 24px 0;
+    margin: 24px 0 30px;
     font-size: 22px;
     color: rgb(107, 107, 107);
 }
@@ -103,6 +103,7 @@ blockquote {
 .author-name:hover,
 .published-link:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .follow-link,
