@@ -179,13 +179,14 @@ h2 + p {
 }
 
 .article-content > p,
-section > p + p {
+section > p + p,
+ul ~ p {
     margin-top: 42px;
 }
 
 ul,
 ol {
-    margin-top: 42px;
+    margin: 42px 0 0 30px;
 }
 
 li {
